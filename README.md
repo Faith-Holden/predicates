@@ -17,17 +17,14 @@ class should be Predicates, in analogy with the standard class Collections that 
 various static methods for working with collections. You should not use the stream API
 for this exercise.
 public static <T> void remove(Collection<T> coll, Predicate<T> pred)
-// Remove every object, obj, from coll for which pred.test(obj)
-// is true. (This does the same thing as coll.removeIf(pred).)
+// Remove every object, obj, from coll for which pred.test(obj) is true.
+  (This does the same thing as coll.removeIf(pred).)
 public static <T> void retain(Collection<T> coll, Predicate<T> pred)
-// Remove every object, obj, from coll for which
-// pred.test(obj) is false. (That is, retain the
-// objects for which the predicate is true.)
+// Remove every object, obj, from coll for which pred.test(obj) is false.
+  (That is, retain the objects for which the predicate is true.)
 public static <T> List<T> collect(Collection<T> coll, Predicate<T> pred)
-// Return a List that contains all the objects, obj,
-// from the collection, coll, such that pred.test(obj)
-// is true.
+// Return a List that contains all the objects, obj, from the collection, coll, such
+  that pred.test(obj) is true.
 public static <T> int find(ArrayList<T> list, Predicate<T> pred)
-// Return the index of the first item in list
-// for which the predicate is true, if any.
-// If there is no such item, return -1.
+// Return the index of the first item in list for which the predicate is true, if any. 
+  If there is no such item, return -1.
