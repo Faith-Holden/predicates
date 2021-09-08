@@ -31,5 +31,4 @@ public static <T> List<T> collect(Collection<T> coll, Predicate<T> pred)
 public static <T> int find(ArrayList<T> list, Predicate<T> pred)
 // Return the index of the first item in list for which the predicate is true, if any. 
   If there is no such item, return -1.
- 
- 
+
